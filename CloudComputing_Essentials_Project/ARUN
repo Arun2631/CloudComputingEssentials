@@ -1,0 +1,233 @@
+#COMMANDS USED FOR THIS PROJECT 
+  176  cd ARUN
+  178  mkdir CloudComputing_Essentials_Project
+  179  cd CloudComputing_Essentials_Project
+  180  mkdir ci_cd_pipeline
+  181  cd ci_cd_pipeline/
+  182  cd ARUN
+  183  clear
+  184  cd CloudComputing_Essentials_Project/
+  185  cd ci_cd_pipeline/
+  186  mkdir source_code build testing stating production control prallelism modularization dependency security access_control
+  187  ls
+  188  rmdir access_control/
+  189  mkdir access control
+  190  mkdir access 
+  191  ls
+  192  mkdir analysis
+  193  ls
+  194  cd access
+  195  touch access_id.txt
+  196  ls
+  197  cd ..
+  198  cd analysis
+  199  touch analysis_step.txt
+  200  cd ..
+  201  cd build
+  202  touch build_id.txt
+  203  ls
+  204  cd ..
+  205  cd control
+  206  touch control_id.txt
+  207  cd ..
+  208  cd dependency
+  209  touch dependency.txt
+  210  cd ..
+  211  cd modularization/
+  212  touch modularization.txt
+  213  cd ..
+  214  cd prallelism
+  215  touch parllelism.txt
+  216  cd ..
+  217  cd production/
+  218  touch production.txt
+  219  cd ..
+  220  cd security/
+  221  touch security.txt
+  222  cd ..
+  223  cd source_code/
+  224  touch source_code.txt
+  225  cd ..
+  226  cd stating
+  227  touch stating.txt
+  228  cd ..
+  229  cd testing/
+  230  touch testing.txt
+  231  cd ..
+  232  mv testing.txt analysis
+  233  mv testing testing.txt analysis
+  234  mv testing/testing.txt analysis
+  235  cd testing
+  236  cd testing/
+  237  cd testing
+  238  cd testing/
+  239  ls
+  240  mv production.txt build
+  241  mv production.txt stating.txt
+  242  cd production
+  243  mv production.txt stating.txt
+  244  ls
+  245  mv stating.txt modularization
+  246  ls
+  247  cd ..
+  248  cd modularization
+  249  ls
+  250  cd ..
+  251  ls
+  252  cd access
+  253  ls
+  254  cd ..
+  255  cd analysis
+  256  ls
+  257  cd ..
+  258  cd build
+  259  ls
+  260  cd ..
+  261  cd control
+  262  ls
+  263  cd ..
+  264  cd dependency
+  265  ls
+  266  cd ..
+  267  cd modularization
+  268  ls
+  269  cd ..
+  270  cd prallelism
+  271  ls
+  272  cd ..
+  273  cd production
+  274  ls
+  275  cd ..
+  276  cd security
+  277  cd ..
+  278  cd security
+  279  ls
+  280  cd ..
+  281  cd source_code
+  282  ls
+  283  cd ..
+  284  cd stating
+  285  ls
+  286  cd ..
+  287  touch pipeline_config.txt
+  288  ls
+  289  ls -l
+  290  chmod 700 pipeline_config.txt 
+  291  ls -l
+  292  cd ..
+  293  mkdir BACKUP
+  294  cd BACKUP/
+  295  cd ..
+  296  cd ci_cd_pipeline/
+  297  cp ci_cd pipeline BACKUP
+  298  cd ..
+  299  cd BACKUP/
+  300  cp ci_cd pipeline BACKUP
+  301  cd ..
+  302  ls
+  303  cp ci_cd pipeline BACKUP
+  304  cd ci_cd_pipeline/
+  305  cp pipeline_config.txt BACKUP
+  306  cd BACKUP/
+  307  cd ..
+  308  ls
+  309  cd BACKUP
+  310  ls
+  311  cp pipeline_config.txt BACKUP
+  312  cd ..
+  313  cp ./ci_cd_pipeline/pipeline_config.txt ./BACKUP/
+  314  cd BACKUP/
+  315  ls
+  316  cd ..
+  317  cd ci_cd_pipeline/
+  318  rm prallelism
+  319  rm prallelism/
+  320  cd prallelism/
+  321  rm parllelism.txt 
+  322  rmdir pra
+  323  rmdir prallelism
+  324  cd ..
+  325  rmdir prallelism
+  326  ls
+  327  touch pipe_line.sh
+  328  nano pipe_line.sh
+  329  ./pipe_line.sh
+  330  chmod 777 pipe_line.sh
+  331  ./pipe_line.sh
+  332  ls
+  333  history
+  334  man history
+  335  ! -20
+  336  cd ..
+  337  cd ci_cd_pipeline/
+  338  ping google.com
+  339  find . -name pipeline_config.txt 
+  340  cd ARUN
+  341  history
+  342  cd CloudComputing_Essentials_Project/
+  343  cd ci_cd_pipeline/
+  344  touch pipeline.sh
+  345  nano pipeline.sh 
+  346  ./pipeline.sh
+  347  chmod 777 pipeline.sh
+  348  ./pipeline.sh
+  349  nano pipeline.sh 
+  350  ./pipeline.sh
+  351  ls
+  352  sort control
+  353  sort pipeline.sh
+  354  tar -cvf <.tar> ci_cd_pipeline
+  355  cd ..
+  356  tar -cvf <.tar> ci_cd_pipeline
+  357  tar -cvf <archivename.tar> ci_cd_pipeline
+  358  tar -cvf ci_cd_pipeline/
+  359  tar -cvf BACKUP/
+  360  cd archive backup
+  361  cd archive_backup
+  362  mkdir archive_backup
+  363  cd archive_backup
+  364  tar -cvf BACKUP/
+  365  tar -cvf ci_cd_pipeline
+  366  tar --help
+  367  tar -tvf archive.tar
+  368  cd ..
+  369  rmdir archive_backup/
+  370  mkdir archive.tar
+  371  cd ci_cd_pipeline/
+  372  tar -tvf archive.tar
+  373  cd ..
+  374  cd archive.tar/
+  375  tar -tvf archive.tar
+  376  tar -cf archive.tar foo bar
+  377  tar -cf archive.tar ci_cd_pipeline
+  378  tar -cf ci_cd_pipeline
+  379  tar --help
+  380  rmdir archive.tar
+  381  rm archive.tar
+  382  cd ..
+  383  ls
+  384  rmdir archive.tar
+  385  cd  ci_cd_pipeline/
+  386  tar -cf archive.tar
+  387  history
+
+
+# PROCEDURE DONE FOR THIS PROJECT
+
+Create a directory 
+Inside directory, create 12 subdirectories, each representing a stage of the CI/CD pipeline
+move a file one from another and rename a file within a directory
+then navigate to first directory and rename with in it
+navigate to first directory and list the contents
+And create the file in the directory and change the permission according to user and verify the permisson by list
+and create backup and store it there
+delete one file and remove an empty directory
+create 100 files using script mode
+and view the last 20 commands
+take ping test for connectivity speed
+then search for a specific fil
+Then create the directory and sort the file list and identify file type atlast compress and archive into a created archive file
+
+
+
+
